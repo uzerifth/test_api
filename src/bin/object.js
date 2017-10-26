@@ -8,8 +8,8 @@ var upload = function(req,res){
   const {name} = req.body;
   var fileloc = {};
   AWS.config.update({
-    accessKeyId: '<ASK FOR THIS>',
-    secretAccessKey: '<ASK FOR THIS>',
+    accessKeyId: 'AKIAJT72754QTRVED5VA',
+    secretAccessKey: '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',
     subregion: 'us-west-2',
   });
 
